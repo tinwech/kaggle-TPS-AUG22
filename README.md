@@ -6,10 +6,10 @@ This repository is my implementation of Kaggle competition [Tabular Playground S
 
 To reproduce the submission, do the following steps:
 
-1. [Install requirements](#requirements)
-2. Either [Download Pre-trained Models](#pre-trained-models) or [Run train.py](#training)
-3. [Evaluation](#evaluation) (optional)
-4. [Inference](#inference)
+1. [Install requirements](#requirements-)
+2. Either [Download Pre-trained Models](#pre-trained-models-) or [Run train.py](#training-)
+3. [Evaluation](#evaluation-) (optional)
+4. [Inference](#inference-)
 
 ## Requirements <!-- omit in toc -->
 
