@@ -7,9 +7,8 @@ This repository is my implementation of Kaggle competition [Tabular Playground S
 To reproduce the submission, do the following steps:
 
 1. [Install requirements](#requirements-)
-2. Either [Download Pre-trained Models](#pre-trained-models-) or [Run train.py](#training-)
-3. [Evaluation](#evaluation-) (optional)
-4. [Inference](#inference-)
+2. Either [train the model](#training-) or [download pre-trained model](#pre-trained-models-)
+3. [Inference](#inference-)
 
 ## Requirements <!-- omit in toc -->
 
@@ -21,18 +20,10 @@ pip install -r requirements.txt
 
 ## Training <!-- omit in toc -->
 
-To train the model(s), run this command:
+To train the model, run this command:
 
 ```train
-python train.py
-```
-
-## Evaluation <!-- omit in toc -->
-
-To evaluate the model(s), run:
-
-```eval
-python eval.py
+python 109511097_Final_train.py
 ```
 
 ## Inference <!-- omit in toc -->
@@ -40,7 +31,7 @@ python eval.py
 To generate `submission.csv`, run:
 
 ```inference
-python inference.py
+python 109511097_Final_inference.py
 ```
 
 ## Pre-trained Models <!-- omit in toc -->
@@ -51,4 +42,4 @@ You can download pretrained models here:
 
 ## Results <!-- omit in toc -->
 
-![](assets/20230105155919.png)  
+![](assets/20230107152401.png)  

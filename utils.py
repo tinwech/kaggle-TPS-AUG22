@@ -1,3 +1,4 @@
+import pandas as pd
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import SimpleImputer, IterativeImputer
 from config import *
@@ -8,6 +9,13 @@ impute_features = ['measurement_3', 'measurement_4',
 
 iter_imputer = IterativeImputer(max_iter=20)
 simple_imputer = SimpleImputer(strategy='median')
+
+def load_data():
+    train_df = pd.read_csv(TRAIN_PATH)
+    test_df = pd.read_csv(TEST_PATH)
+    X_train = train_df.drop(columns=['failure'])
+    y_train = train_df['failure']
+    return X_train, y_train, test_df
 
 def impute(data, fit=False):
     if fit:
