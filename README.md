@@ -23,7 +23,7 @@ pip install -r requirements.txt
 To train the model, run this command:
 
 ```train
-python 109511097_Final_train.py
+python train.py
 ```
 
 ## Inference <!-- omit in toc -->
@@ -31,7 +31,7 @@ python 109511097_Final_train.py
 To generate `submission.csv`, run:
 
 ```inference
-python 109511097_Final_inference.py
+python inference.py
 ```
 
 ## Pre-trained Models <!-- omit in toc -->
